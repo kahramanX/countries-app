@@ -11,11 +11,11 @@ function App() {
     return (
         <div className="App">
             <div className="container">
-                <div className="search-container">
                     <SearchCountry/>
-                </div>
                 <div className="country-list">
+                    <ul>
                     <CountryList/>
+                    </ul>
                 </div>
 
             </div>

@@ -1,9 +1,9 @@
 function SearchCountry() {
-    
 
-    return(
-        <input>
-        </input>
+    return (
+        <div className="search-container">
+            <input type="text" />
+        </div>
     );
 }
 
