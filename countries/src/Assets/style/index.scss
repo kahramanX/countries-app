@@ -1,0 +1,48 @@
+// Reset CSS imported
+@import "./reset.scss";
+
+.container {
+    background-color: #fffde7;
+    border: 3px solid #fff375;
+    border-radius: 5px;
+    width: 600px;
+    height: auto;
+    // container centered
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    input {
+        font-size: 1.2em;
+        padding: 4px 6px 4px 6px;
+        border-radius: 5px;
+        background-color: #fffde7;
+        border: 2px solid #c8c3f8;
+        transition: border 0.1s;
+
+        &:focus {
+            border: 4px solid #bbb5ff;
+        }
+        &:hover{
+            border: 2.5px solid #bbb5ff;
+        }
+    }
+
+    .search-container {
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 4px solid #fff375;
+    }
+
+    .country-list {
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+
+}
